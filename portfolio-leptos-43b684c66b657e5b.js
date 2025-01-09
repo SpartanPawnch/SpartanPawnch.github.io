@@ -488,16 +488,6 @@ function __wbg_get_imports() {
     imports.wbg.__wbg_enqueue_e693a6fb4f3261c1 = function() { return handleError(function (arg0, arg1) {
         arg0.enqueue(arg1);
     }, arguments) };
-    imports.wbg.__wbg_append_2d052bdf2a44d6e4 = function() { return handleError(function (arg0, arg1) {
-        arg0.append(arg1);
-    }, arguments) };
-    imports.wbg.__wbg_view_de0e81c5c00d2129 = function(arg0) {
-        const ret = arg0.view;
-        return isLikeNone(ret) ? 0 : addToExternrefTable0(ret);
-    };
-    imports.wbg.__wbg_respond_ffb6928cd9b79c32 = function() { return handleError(function (arg0, arg1) {
-        arg0.respond(arg1 >>> 0);
-    }, arguments) };
     imports.wbg.__wbg_length_9a6b70327f5f86e1 = function(arg0) {
         const ret = arg0.length;
         return ret;
@@ -508,6 +498,16 @@ function __wbg_get_imports() {
     };
     imports.wbg.__wbg_close_7cda9dd901230214 = function() { return handleError(function (arg0) {
         arg0.close();
+    }, arguments) };
+    imports.wbg.__wbg_append_2d052bdf2a44d6e4 = function() { return handleError(function (arg0, arg1) {
+        arg0.append(arg1);
+    }, arguments) };
+    imports.wbg.__wbg_view_de0e81c5c00d2129 = function(arg0) {
+        const ret = arg0.view;
+        return isLikeNone(ret) ? 0 : addToExternrefTable0(ret);
+    };
+    imports.wbg.__wbg_respond_ffb6928cd9b79c32 = function() { return handleError(function (arg0, arg1) {
+        arg0.respond(arg1 >>> 0);
     }, arguments) };
     imports.wbg.__wbindgen_is_function = function(arg0) {
         const ret = typeof(arg0) === 'function';
@@ -623,7 +623,7 @@ function __wbg_get_imports() {
         return ret;
     };
     imports.wbg.__wbg_queueMicrotask_c5419c06eab41e73 = typeof queueMicrotask == 'function' ? queueMicrotask : notDefined('queueMicrotask');
-    imports.wbg.__wbindgen_closure_wrapper2255 = function(arg0, arg1, arg2) {
+    imports.wbg.__wbindgen_closure_wrapper2257 = function(arg0, arg1, arg2) {
         const ret = makeMutClosure(arg0, arg1, 87, __wbg_adapter_22);
         return ret;
     };
